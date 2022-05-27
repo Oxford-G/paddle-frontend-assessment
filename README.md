@@ -18,7 +18,7 @@ This is a  Gratis-digital-world assessment test project.
 To get a local copy up and running follow these simple example steps.
 
 - Clone the repo by typing `git clone git@github.com:Oxford-G/paddle-frontend-assessment.git`
-- cd into the root directory `paddle-frontend-assessment`
+- cd into the root directory ` cd paddle-frontend-assessment`
 - `npm install` - This will install all the packages in the package.json file
 
 ## Run locally
