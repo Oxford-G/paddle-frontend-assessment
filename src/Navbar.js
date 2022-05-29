@@ -11,13 +11,13 @@ const Navbar = ()=> (
     <nav>
       <ul>
         <li>
-          <Link>ABOUT US</Link>
+          <Link to="/about">ABOUT US</Link>
         </li>
         <li>
-          <Link>BLOG</Link>
+          <Link to="/blog">BLOG</Link>
         </li>
         <li className='last-list'>
-          <Link>CONTACT US</Link>
+          <Link to="/comingsoon">CONTACT US</Link>
         </li>
       </ul>
     </nav>
