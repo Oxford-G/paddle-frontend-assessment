@@ -1,8 +1,9 @@
 import { Link } from 'react-router-dom';
 import logo from './assest/gratis-logo.png';
+import './Navbar.css';
 
 const Navbar = ()=> (
-  <header>
+  <header className='Nav-header'>
     <div>
       <Link to="/">
         <img src={logo} className="logo" alt="logo"/>
@@ -10,7 +11,7 @@ const Navbar = ()=> (
       </Link> 
     </div>
     
-    <nav>
+    <nav className='Nav-nav'>
       <ul>
         <li>
           <Link to="/about">ABOUT US</Link>

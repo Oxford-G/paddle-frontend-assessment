@@ -1,21 +1,26 @@
-// import './contact.css';
+import './contact.css';
 
 const Contact = () => (
   <div className="contact-container">
-    <h2>Hey we are still the works, but you can 
+    <h2 className="contact-header">Hey we are still the works, but you can 
       send us a message
     </h2>
-    <form action="">
-    <fieldset>
-        <label>First name: <input type="text" name="first-name" required /></label>
-        <label>Last name: <input type="text" name="last-name" required /></label>
-        <label>Email address: <input type="email" name="email" required /></label>
-        <label>Create a New Password: <input type="password" name="password" pattern="[a-z0-5]{8,}" required /></label>
-        <label>Tell us what you need help with:
-          <textarea name="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
+    <form action="" className="contact-form">
+    <fieldset className="contact-container">
+        <label className="label-container">First name: 
+          <input className="contact-input" type="text" name="first-name" required />
+        </label>
+        <label className="label-container">Last name: 
+          <input className="contact-input" type="text" name="last-name" required />
+        </label>
+        <label className="label-container">Email address: 
+          <input className="contact-input" type="email" name="email" required />
+        </label>
+        <label className="label-container">Tell us what you need help with:
+          <textarea className="contact-input" name="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
 			  </label>
       </fieldset>
-      <input type="submit" value="Send Now" />
+      <input className="contact-submit" type="submit" value="Send Now" />
     </form>
     
   </div>
