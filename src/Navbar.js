@@ -4,8 +4,10 @@ import logo from './assest/gratis-logo.png';
 const Navbar = ()=> (
   <header>
     <div>
-      <img src={logo} className="logo" alt="logo"/>
-      <p>METRICKS</p>
+      <Link to="/">
+        <img src={logo} className="logo" alt="logo"/>
+        <p>METRICKS</p>
+      </Link> 
     </div>
     
     <nav>
