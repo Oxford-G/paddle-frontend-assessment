@@ -1,0 +1,60 @@
+body {
+  background-color: aliceblue;
+}
+
+/* .Blog-container {
+ 
+  color: white;
+} */
+
+.Blog-header {
+  width: 90%;
+  margin: 0 auto;
+  background-color: rgb(6, 10, 65);
+  height: 240px;
+  color: white;
+  position: relative;
+}
+
+.Blog-blur {
+  height: 80%;
+  width: 150px;
+  background-color: rgb(238, 145, 199);
+  margin: 30px 0 0 180px;
+  position: absolute;
+  opacity: 0.2;
+  box-shadow: 4px 4px 60px 4px rgb(238, 145, 199);
+  border-radius: 10px;
+  filter: blur(6px);
+}
+
+.Blog-blur2 {
+  background-color: white;
+  height: 100%;
+  width: 35%;
+  position: absolute;
+  opacity: 0.1;
+  /* opacity: 0.6; */
+  /* filter: blur(1px); */
+}
+
+.Blog-header > p {
+  background-color: green;
+  width: fit-content;
+  position: absolute;
+  left: 280px;
+  top: 77px;
+  font-size: 11px;
+}
+
+.Blog-header > p > span {
+  background-color: rgb(128, 94, 0);
+  letter-spacing: -2px;
+}
+
+.Blog-header > h2 {
+  background-color: rgb(43, 6, 5);
+  position: absolute;
+  left: 293px;
+  top: 100px;
+}
