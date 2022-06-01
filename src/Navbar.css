@@ -12,7 +12,7 @@
 
 .Nav-header > div > a {
   text-decoration: none;
-  color: #ffffff;
+  /* color: #ffffff; */
 }
 
 /* p {
@@ -40,7 +40,7 @@
 
 .Nav-nav > ul > li > a {
   text-decoration: none;
-  color: #ffffff;
+  /* color: #ffffff; */
   font-size: 12px;
   font-weight: 600;
 }
@@ -63,5 +63,5 @@
   justify-content: space-between;
   width: 90%;
   height: 50px;
-  margin: 20px auto;
+  margin: 0 auto;
 }

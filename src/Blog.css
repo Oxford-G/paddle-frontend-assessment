@@ -1,15 +1,29 @@
-body {
+/* body {
   background-color: aliceblue;
+} */
+
+.Blog-container {
+  background-color: rgb(191, 202, 211);
+  /* color: white; */
+  padding-top: 10px;
 }
 
-/* .Blog-container {
- 
-  color: white;
-} */
+.blog-color {
+  color: black;
+}
+
+.blog-color2 {
+  color: rgb(238, 46, 78);
+}
+
+.blog-color3 {
+  background-color: #ffffff;
+  /* color: black; */
+}
 
 .Blog-header {
   width: 90%;
-  margin: 0 auto;
+  margin: 25px auto 10px auto;
   background-color: rgb(6, 10, 65);
   height: 240px;
   color: white;
@@ -19,7 +33,7 @@ body {
 .Blog-blur {
   height: 80%;
   width: 150px;
-  background-color: rgb(238, 145, 199);
+  /* background-color: rgb(238, 145, 199); */
   margin: 30px 0 0 180px;
   position: absolute;
   opacity: 0.2;
@@ -39,7 +53,7 @@ body {
 }
 
 .Blog-header > p {
-  background-color: green;
+  /* background-color: green; */
   width: fit-content;
   position: absolute;
   left: 280px;
@@ -48,13 +62,277 @@ body {
 }
 
 .Blog-header > p > span {
-  background-color: rgb(128, 94, 0);
+  /* background-color: rgb(128, 94, 0); */
   letter-spacing: -2px;
 }
 
 .Blog-header > h2 {
-  background-color: rgb(43, 6, 5);
+  /* background-color: rgb(43, 6, 5); */
   position: absolute;
   left: 293px;
-  top: 100px;
+  top: 90px;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.latest {
+  height: auto;
+  width: 90%;
+  /* background-color: palevioletred; */
+  margin: 0 auto 20px auto;
+  padding: 10px 100px 20px 100px;
+}
+
+.latest > h3 {
+  /* background-color: rgb(70, 63, 65); */
+  font-size: 23px;
+  font-weight: 500;
+  color: black;
+}
+
+.latest-note {
+  display: flex;
+  /* background-color: palevioletred; */
+  padding: 0;
+  margin: 0;
+  justify-content: space-between;
+}
+
+.latest-note > p{
+  /* background-color: rgb(8, 1, 4); */
+  padding: 0;
+  margin: 0;
+  width: 45%;
+  line-height: 25px;
+  font-size: 15px;
+  color: #9b8282;
+}
+
+.latest-note > label {
+  height: 70px;
+  width: 40%;
+  /* background-color: rgb(115, 93, 141); */
+  padding: 3px;
+  text-align: right;
+  position: relative;
+}
+
+.latest-note > label > img{
+  height: 20px;
+  width: 20px;
+  /* background-color: rgb(13, 156, 32); */
+  position: absolute;
+  left: 350px;
+  top: 22px;
+}
+
+.search {
+  /* background-color: rgb(231, 231, 74); */
+  width: 90%;
+  height: 56px;
+  border-radius: 50px;
+  border: 1px solid #9b8282;
+  padding: 0 40px;
+  color: #9b8282;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.box-flex {
+  height: fit-content;
+  width: 31%;
+  /* background-color: gold; */
+  padding: 10px 10px;
+  margin: 10px 0;
+  box-shadow: 0 0 30px 0 red;
+}
+
+.box-flex > img {
+  background-color: gold;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.flex-p1 {
+  /* background-color: #dbd0e6; */
+  font-size: 8px;
+  color: gray;
+  padding-left: 12px;
+  line-height: 12px;
+}
+
+.box-flex > h4 {
+  /* background-color: rgb(77, 48, 15); */
+  width: 70%;
+  font-weight: 500;
+  margin-top: 15px;
+  line-height: 25px;
+  padding-left: 12px;
+  color: black;
+}
+
+.flex-p2 {
+  /* background-color: rgb(174, 120, 224); */
+  font-size: 13px;
+  padding-left: 12px;
+  color: #9b8282;
+}
+
+.flex-p3 {
+  /* background-color: green; */
+  width: fit-content;
+  font-size: 11px;
+  color: rgb(247, 75, 75);
+}
+
+.flex-p3 > span {
+  letter-spacing: -2px;
+  /* padding-left: 12px; */
+}
+
+
+.latest-article {
+  height: auto;
+  width: 90%;
+  /* background-color: palevioletred; */
+  margin: 0 auto 20px auto;
+  padding: 10px 10px 20px 10px;
+}
+
+.latest-article > h3 {
+  /* background-color: rgb(70, 63, 65); */
+  font-size: 23px;
+  font-weight: 500;
+  color: black;
+}
+
+.article-note > p{
+  /* background-color: rgb(8, 1, 4); */
+  padding: 0;
+  margin: 0;
+  width: 45%;
+  line-height: 25px;
+  font-size: 15px;
+  color: #9b8282;
+}
+
+.button-div {
+  text-align: center;
+  margin: 30px;
+  padding: 20px;
+  /* background-color: red; */
+}
+
+.blog-button {
+  border-radius: 50px;
+  background-color: rgb(6, 10, 65);
+  color: white;
+  padding: 12px 37px;
+}
+
+.Blog-header2 {
+  width: 90%;
+  margin: 0 auto;
+  background-color: rgb(6, 10, 65);
+  height: 240px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 90px 30px 30px;
+}
+
+.footer-article > h3 {
+  /* background-color: rgb(43, 6, 5); */
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.footer-article > p {
+  /* background-color: green; */
+  width: fit-content;
+  font-size: 13px;
+  line-height: 30px;
+}
+
+.contact-us {
+  color: rgba(221, 21, 54, 0.856);
+  font-weight: 600;
+}
+
+.footer-article > p > span {
+  /* background-color: rgb(128, 94, 0); */
+  letter-spacing: -2px;
+}
+
+.Blog-blurContain {
+  width: 30%;
+  position: relative;
+}
+
+.Blog-blur3 {
+  height: 80%;
+  width: 80px;
+  /* background-color: rgb(238, 145, 199); */
+  margin: 30px 0 0 200px;
+  position: absolute;
+  opacity: 0.6;
+  box-shadow: 4px 4px 60px 4px rgb(238, 145, 199);
+  border-radius: 10px;
+  filter: blur(6px);
+  transform: rotate(90deg);
+}
+
+.Blog-blur4 {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0.1;
+}
+
+
+.blog-footer {
+  width: 90%;
+  margin: 0 auto;
+  color: black;
+}
+
+.blog-footer > p {
+  font-size: 11px;
+  text-align: center;
+}
+
+.blog-footer > ul {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+  margin: 90px auto 0 auto;
+  padding: 0 32px 0 0;
+  list-style: none;
+}
+
+.blog-footer > ul > li > img {
+  height: 130%;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.blog-footer > .first-p {
+  width: 30%;
+  margin: 20px auto 20px auto;
+  display: flex;
+  justify-content: space-around;
+  letter-spacing: 3px;
+}
+
+.blog-footer > .last-p {
+  font-size: 12px;
 }

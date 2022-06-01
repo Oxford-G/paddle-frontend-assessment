@@ -3,10 +3,12 @@ import foot2 from './assest/twitter-square-brands.svg';
 import foot3 from './assest/linkedin-brands.svg';
 import foot4 from './assest/instagram-brands.svg';
 import foot5 from './assest/facebook-brands.svg';
+import Navbar from './Navbar';
 import './Home.css';
 
 const Home = () => (
-  // <div className="home">
+  <div className="home">
+    <Navbar />
     <div className='container'>
       <h1 className="header-name">SOMETHING AWESOME IS COMING SOON</h1>
       <p className="header-name">Your all-in-one affiliate marketing tracking software 
@@ -62,7 +64,7 @@ const Home = () => (
         <p>Copyright 2021 @ Paddle Technologies All Rights Reserved</p>
       </div>
     </div>
-  // </div>
+  </div>
 )
 
 export default Home

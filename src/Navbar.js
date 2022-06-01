@@ -6,21 +6,21 @@ const Navbar = ()=> (
   <header className='Nav-header'>
     <div>
       <Link to="/">
-        <img src={logo} className="logo" alt="logo"/>
-        <p>METRICKS</p>
+        <img src={logo} className="logo blog-color" alt="logo"/>
+        <p className="blog-color color-home">METRICKS</p>
       </Link> 
     </div>
     
     <nav className='Nav-nav'>
       <ul>
         <li>
-          <Link to="/about">ABOUT US</Link>
+          <Link className="blog-color color-home" to="/about">ABOUT US</Link>
         </li>
         <li>
-          <Link to="/blog">BLOG</Link>
+          <Link className="blog-color2 color-home" to="/blog">BLOG</Link>
         </li>
-        <li className='last-list'>
-          <Link to="/comingsoon">CONTACT US</Link>
+        <li className='last-list blog-color3'>
+          <Link className="blog-color color-home" to="/comingsoon">CONTACT US</Link>
         </li>
       </ul>
     </nav>

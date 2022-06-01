@@ -1,15 +1,21 @@
-body{
+.home{
   background-color: rgb(6, 10, 65);
+  color: #ffffff;
+  /* margin: 0; */
+  padding-top: 10px;
+}
+
+.color-home {
   color: #ffffff;
 }
 
 .container {
   width: 90%;
-  margin: 0 auto;
-  /* background-color: rgb(245, 31, 31); */
+  margin: 25px auto 10px auto;
   position: relative;
   height: 800px;
   overflow: hidden;
+  /* background-color: rgb(6, 10, 65); */
 }
 
 .container > h1 {
@@ -18,7 +24,11 @@ body{
   font-size: 35px;
 }
 
-.container > h1, p {
+.container > h1 {
+  text-align: center;
+}
+
+.container > p {
   text-align: center;
 }
 
@@ -138,6 +148,7 @@ body{
 
 .footer > p {
   font-size: 13px;
+  text-align: center;
 }
 
 .footer > ul {

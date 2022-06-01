@@ -1,5 +1,5 @@
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import Navbar from './Navbar';
+// import Navbar from './Navbar';
 import About from './About';
 import Blog from './Blog';
 import Contact from './Contact';
@@ -8,7 +8,6 @@ import Home from './Home';
 const Routes = () => (
   <>
     <BrowserRouter>
-      <Navbar />
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
