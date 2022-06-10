@@ -1,17 +1,18 @@
 
 # Paddle-Frontend-Assessment
 
-This is a  Gratis-digital-world assessment test project.
+This is a Metricks clone app inline with the Gratis-digital-world assessment test project.
 
 ## Built With
 
 - Javascript
 - React
-- Node
 - JSX
-- SCSS
 - HTML
 - CSS
+
+## home page:
+![screenshot](./src/asset/gratis.png)
 
 ## Getting Started
 

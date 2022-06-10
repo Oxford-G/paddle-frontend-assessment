@@ -1,10 +1,9 @@
 import './contact.css';
 import Navbar from '../Nav component/Navbar';
-
+// import {BsArrowRight} from 'react-icons/Bs'
 const Contact = () => (
-  
   <div className="contact-home">
-    <Navbar />
+    {/* <Navbar /> */}
     <div className="contact-container">
       <h2 className="contact-header">Hey we are still the works, but you can 
         send us a message

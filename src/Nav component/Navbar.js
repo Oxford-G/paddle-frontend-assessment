@@ -1,8 +1,11 @@
 import { Link } from 'react-router-dom';
 import logo from '../assest/gratis-logo.png';
 import './Navbar.css';
+import React from 'react'
+import './Navbar.css';
+const Navbar = ()=> {
 
-const Navbar = ()=> (
+  return (
   <header className='Nav-header'>
     <div>
       <Link to="/">
@@ -20,11 +23,13 @@ const Navbar = ()=> (
           <Link to="/blog">BLOG</Link>
         </li>
         <li className='last-list'>
-          <Link className="blog-color color-home" to="/comingsoon">CONTACT US</Link>
+          <Link className="blog-color color-home" to="/comingsoon" >
+            CONTACT US
+          </Link>
         </li>
       </ul>
     </nav>
   </header>
-)
+)}
 
 export default Navbar

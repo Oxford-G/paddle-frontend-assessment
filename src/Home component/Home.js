@@ -5,11 +5,20 @@ import foot4 from '../assest/instagram-brands.svg';
 import foot5 from '../assest/facebook-brands.svg';
 import Navbar from '../Nav component/Navbar';
 import './Home.css';
+import React from 'react'
 
-const Home = () => (
+const Home = () => {
+  // const [open, setOpen] = React.useState(false)
+  // const openContact = () => {
+  //   setOpen(!open)
+  // }
+
+  // const setClass = open ? "hide-container" : "container";
+
+  return (
   <div className="home">
     <Navbar />
-    <div className='container'>
+    <div className="container">
       <h1 className="header-name">SOMETHING AWESOME IS COMING SOON</h1>
       <p className="header-name">Your all-in-one affiliate marketing tracking software 
         <span> track, automate</span> and <span> optimize </span>
@@ -67,6 +76,6 @@ const Home = () => (
       </div>
     </div>
   </div>
-)
+)}
 
 export default Home

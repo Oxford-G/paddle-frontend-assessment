@@ -9,6 +9,15 @@
   color: #ffffff;
 } */
 
+/* .hide-container {
+  filter: blur(10px);
+  width: 90%;
+  margin: 25px auto 10px auto;
+  position: relative;
+  height: 800px;
+  overflow: hidden;
+} */
+
 .container {
   width: 90%;
   margin: 25px auto 10px auto;
