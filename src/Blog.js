@@ -1,15 +1,11 @@
 import './Blog.css';
+import BlogNav from './BlogNav';
+import Footer from './Footer';
 import logo from './assest/header-background.jpg';
-import foot1 from './assest/youtube-square-brands.svg';
-import foot2 from './assest/twitter-square-brands.svg';
-import foot3 from './assest/linkedin-brands.svg';
-import foot4 from './assest/instagram-brands.svg';
-import foot5 from './assest/facebook-brands.svg';
-import Navbar from './Navbar';
 
 const Blog = () => (
   <div className="Blog-container">
-    <Navbar />
+    <BlogNav />
     <div className="Blog-header">
       <div className="Blog-blur"></div>
       <div className="Blog-blur2"></div>
@@ -185,20 +181,7 @@ const Blog = () => (
         <div className="Blog-blur4"></div>
       </div>
     </div>
-    <div className="blog-footer">
-        <ul className='Blogfoot-logo'>
-          <li><img src={foot1} alt="youtube logo"/></li>
-          <li><img src={foot2} alt="twitter logo"/></li>
-          <li><img src={foot3} alt="linkedin logo"/></li>
-          <li><img src={foot4} alt="instagram logo"/></li>
-          <li><img src={foot5} alt="facebook logo"/></li>
-        </ul>
-        <p className='first-p'>
-          <span>Terms of services</span>
-          <span>Privacy policy</span>
-        </p>
-        <p className='last-p'>Copyright 2021 @ Paddle Technologies All Rights Reserved</p>
-      </div>
+    <Footer />
   </div>
 )
 

@@ -1,0 +1,206 @@
+.about-container {
+  background-color: #1e0040;
+  color: white;
+}
+
+/* .about-container2 {
+  background-color: blueviolet;
+} */
+
+.about-blur {
+  width: 20%;
+  /* margin: 50px 0; */
+  position: absolute;
+  margin: 100px 0 0 520px;
+  height: 350px;
+}
+
+.about-blurAll {
+  opacity: 0.4;
+  box-shadow: 4px 4px 60px 4px rgb(30, 0, 64);
+  border-radius: 10px;
+  filter: blur(6px);
+  background-color: rgb(227, 92, 171);
+}
+
+.about-shade {
+  width: 65%;
+  margin: 50px 0;
+  position: absolute;
+}
+
+.about-shadeAll {
+  height: 500px;
+  background-color: rgba(122, 57, 148, 0.151);
+  /* opacity: 0.1; */
+} 
+
+.about-us {
+  position: absolute;
+  left: 550px;
+  top: 230px;
+}
+
+.about-all {
+  font-size: 11px;
+  width: fit-content;
+  font-weight: 600;
+}
+
+/* .about-us > span{
+  background-color: rgb(0, 183, 255);
+} */
+
+.dash {
+  letter-spacing: -2px;
+  margin-right: 5px;
+}
+
+.about-container2 > h1{
+  position: absolute;
+  left: 620px;
+  top: 250px;
+  font-size: 50px;
+  font-weight: normal;
+}
+
+.about-container2 > h1 > span{
+  /* background-color: rgba(122, 57, 148, 0.151); */
+  display: block;
+}
+
+.about-us2d {
+  background-color: pink;
+}
+
+.about-us2d > p{
+  position: absolute;
+  right: 140px;
+  top: 480px;
+  /* font-size: 50px; */
+  font-weight: normal;
+  width: 20%;
+}
+
+.about-container2 > h2{
+  /* background-color: rgba(122, 57, 148, 0.151); */
+  margin-top: 700px;
+  text-align: center;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+  font-weight: normal;
+  margin-bottom: 100px;
+}
+
+.about-blur2 {
+  background-color: rgb(66, 178, 243);
+  width: 15%;
+  height: 300px;
+  position: absolute;
+  right: 400px;
+  margin-top: 50px;
+}
+
+.about-blur2 > p {
+  background-color: rgb(66, 178, 243);
+}
+
+.about-shade2 {
+  /* background-color: beige; */
+  width: 50%;
+  position: absolute;
+  right: 0;
+  height: auto;
+}
+
+.about-shade2 > p{
+width: 80%;
+margin: 30px auto;
+}
+
+.about-us2 {
+  /* background-color: pink; */
+  font-size: 15px;
+  line-height: 27px;
+}
+
+
+/* .why-us > span{
+  background-color: rgb(0, 183, 255);
+} */
+
+.why-us1 {
+  padding: 30px 0 0 0;
+}
+
+.about-us3d {
+  /* background-color: rgb(146, 142, 142); */
+  width: 30%;
+  float: left;
+  margin-left: 150px;
+  padding-top: 20px;
+}
+
+.about-us3d > p{
+  /* background-color: rgb(146, 142, 142); */
+  /* font-size: 15px; */
+  padding-bottom: 10px;
+}
+
+/* .about-dots {
+  background-color: gold;
+} */
+
+.about-dots1 {
+  margin-top: 140px;
+}
+
+.about-dots > span {
+  display: block;
+  letter-spacing: 15px;
+  font-weight: bold;
+}
+
+.aboutUs-header2 {
+  width: 100%;
+  /* margin: 0 auto; */
+  background-color: rgba(122, 57, 148, 0.151);
+  height: 240px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 90px 30px 30px;
+  margin-top: 650px;
+}
+
+.aboutFooter-article {
+  /* background-color: turquoise;
+  margin-top: 600px; */
+  margin-left: 50px;
+}
+
+.aboutFooter-article > h3{
+  /* background-color: turquoise; */
+  font-size: 22px;
+}
+
+.aboutContact-us1 {
+  font-size: 15px;
+  line-height: 27px;
+}
+
+.aboutContact-us {
+  font-size: 15px;
+  line-height: 27px;
+  color: #f020c6;
+}
+
+.about-blur3 {
+  background-color: rgba(232, 66, 16, 0.89);
+  height: 70%;
+  width: 22%;
+  /* transform: rotate(90deg); */
+  margin-top: 35px;
+}

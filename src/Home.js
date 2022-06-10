@@ -50,18 +50,20 @@ const Home = () => (
         </fieldset>
       </form>
       <div className="footer">
-        <ul className='foot-logo'>
-          <li><img src={foot1} alt="youtube logo"/></li>
-          <li><img src={foot2} alt="twitter logo"/></li>
-          <li><img src={foot3} alt="linkedin logo"/></li>
-          <li><img src={foot4} alt="instagram logo"/></li>
-          <li><img src={foot5} alt="facebook logo"/></li>
-        </ul>
-        <p className='first-p'>
-          <span>Terms of services</span>
-          <span>Privacy policy</span>
-        </p>
-        <p>Copyright 2021 @ Paddle Technologies All Rights Reserved</p>
+        <div className="footer-shade">
+          <ul className='foot-logo'>
+            <li><img src={foot1} alt="youtube logo"/></li>
+            <li><img src={foot2} alt="twitter logo"/></li>
+            <li><img src={foot3} alt="linkedin logo"/></li>
+            <li><img src={foot4} alt="instagram logo"/></li>
+            <li><img src={foot5} alt="facebook logo"/></li>
+          </ul>
+          <p className='first-p'>
+            <span>Terms of services</span>
+            <span>Privacy policy</span>
+          </p>
+          <p className='last-p'>Copyright 2021 @ Paddle Technologies All Rights Reserved</p>
+        </div>
       </div>
     </div>
   </div>

@@ -1,10 +1,13 @@
+import Navbar from './Navbar';
+import Footer from './Footer';
+import './About.css';
 
 const About = () => (
   <div className="about-container">
+    <Navbar />
+    <div className="about-blur about-blurAll"></div>
+    <div className="about-shade about-shadeAll"></div>
     <div className="about-container2">
-      <div className="about-blur about-blurAll"></div>
-      <div className="about-shade about-shadeAll"></div>
-
       <p className="about-us about-all">
         <span className="dash">------------</span>
         <span>ABOUT US</span>
@@ -37,7 +40,7 @@ const About = () => (
           between advitisers and affliates
         </p>
         <p className="about-dots">
-          <span>.............</span>
+          <span className="about-dots1">.............</span>
           <span>.............</span>
           <span>.............</span>
           <span>.............</span>
@@ -47,15 +50,15 @@ const About = () => (
       
       <div className="about-blur2 about-blurAll"></div>
       <div className="about-shade2 about-shadeAll">
-        <p className="why-us about-all">
+        <p className="why-us about-all why-us1">
           <span className="dash">------------</span>
           <span>GROWING WITH YOU</span>
         </p>
 
-        <p>Leveraging the best technology, we have developed an all in one
+        <p className="about-us2">Leveraging the best technology, we have developed an all in one
            affliate tracking marketing software, a geneius tool to help us track, automate and
            optimize your influencial campaigns, all from one dashboard</p>
-        <p>
+        <p className="about-us2 why-us1">
           Leveraging the best technology, we have developed an all in one
           affliate tracking marketing software, a geneius tool to help us track, automate and
           optimize your influencial campaigns, all from one dashboard
@@ -63,7 +66,7 @@ const About = () => (
       </div>
     </div>
     <div className="aboutUs-header2">
-      <div className="footer-article">
+      <div className="aboutFooter-article">
         <h3> Got a Question?</h3>
         <p className="aboutContact-us1">See how Metrix can help your business grow with the
           best affliate tracking software.</p>
@@ -73,20 +76,7 @@ const About = () => (
       </div>
       <div className="about-blur3 about-blurAll"></div>
     </div>
-    <div className="about-footer">
-      <ul className='aboutfoot-logo'>
-        <li><img src={foot1} alt="youtube logo"/></li>
-        <li><img src={foot2} alt="twitter logo"/></li>
-        <li><img src={foot3} alt="linkedin logo"/></li>
-        <li><img src={foot4} alt="instagram logo"/></li>
-        <li><img src={foot5} alt="facebook logo"/></li>
-      </ul>
-      <p className='aboutFirst-p'>
-        <span>Terms of services</span>
-        <span>Privacy policy</span>
-      </p>
-      <p className='aboutLast-p'>Copyright 2021 @ Paddle Technologies All Rights Reserved</p>
-    </div>
+    <Footer />
   </div>
 )
 

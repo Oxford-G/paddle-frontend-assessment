@@ -1,0 +1,38 @@
+
+.blog-footer {
+  width: 90%;
+  margin: 0 auto;
+  color: black;
+}
+
+.blog-footer > p {
+  font-size: 11px;
+  text-align: center;
+}
+
+.blog-footer > ul {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+  margin: 90px auto 0 auto;
+  padding: 0 32px 0 0;
+  list-style: none;
+}
+
+.blog-footer > ul > li > img {
+  height: 130%;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.blog-footer > .first-p {
+  width: 30%;
+  margin: 20px auto 20px auto;
+  display: flex;
+  justify-content: space-around;
+  letter-spacing: 3px;
+}
+
+.blog-footer > .last-p {
+  font-size: 12px;
+}
