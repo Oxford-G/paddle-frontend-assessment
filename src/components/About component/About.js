@@ -1,5 +1,5 @@
-import Navbar from './Navbar';
-import Footer from './Footer';
+import Navbar from '../Nav component/Navbar';
+import Footer from '../Footer component/Footer';
 import './About.css';
 
 const About = () => (

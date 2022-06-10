@@ -3,7 +3,7 @@ import foot2 from './assest/twitter-square-brands.svg';
 import foot3 from './assest/linkedin-brands.svg';
 import foot4 from './assest/instagram-brands.svg';
 import foot5 from './assest/facebook-brands.svg';
-import Navbar from './Navbar';
+import Navbar from '../Nav component/Navbar';
 import './Home.css';
 
 const Home = () => (

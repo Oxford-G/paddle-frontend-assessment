@@ -1,6 +1,6 @@
 import './Blog.css';
-import BlogNav from './BlogNav';
-import Footer from './Footer';
+import BlogNav from '../Nav component/BlogNav';
+import Footer from '../Footer component/Footer';
 import logo from './assest/header-background.jpg';
 
 const Blog = () => (
