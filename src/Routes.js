@@ -1,9 +1,9 @@
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 // import Navbar from './Navbar';
-import About from './components/About component/About';
-import Blog from './components/Blog component/Blog';
-import Contact from './components/Contact component/Contact';
-import Home from './components/Home component/Home';
+import About from './About component/About';
+import Blog from './Blog component/Blog';
+import Contact from './Contact component/Contact';
+import Home from './Home component/Home';
 
 const Routes = () => (
   <>

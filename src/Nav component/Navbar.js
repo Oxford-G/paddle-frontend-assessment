@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom';
-import logo from './assest/gratis-blog-logo.png';
-import './BlogNav.css';
+import logo from '../assest/gratis-logo.png';
+import './Navbar.css';
 
-const BlogNav = ()=> (
-  <header className='BlogNav-header'>
+const Navbar = ()=> (
+  <header className='Nav-header'>
     <div>
       <Link to="/">
         <img src={logo} className="logo blog-color" alt="logo"/>
@@ -11,15 +11,15 @@ const BlogNav = ()=> (
       </Link> 
     </div>
     
-    <nav className='BlogNav-nav'>
+    <nav className='Nav-nav'>
       <ul>
         <li>
-          <Link className="blog-color color-home" to="/about">ABOUT US</Link>
+          <Link to="/about">ABOUT US</Link>
         </li>
         <li>
-          <Link className="blog-color2 color-home" to="/blog">BLOG</Link>
+          <Link to="/blog">BLOG</Link>
         </li>
-        <li className='Bloglast-list blog-color3'>
+        <li className='last-list'>
           <Link className="blog-color color-home" to="/comingsoon">CONTACT US</Link>
         </li>
       </ul>
@@ -27,4 +27,4 @@ const BlogNav = ()=> (
   </header>
 )
 
-export default BlogNav
+export default Navbar

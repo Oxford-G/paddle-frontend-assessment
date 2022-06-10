@@ -1,8 +1,8 @@
-import foot1 from './assest/youtube-square-brands.svg';
-import foot2 from './assest/twitter-square-brands.svg';
-import foot3 from './assest/linkedin-brands.svg';
-import foot4 from './assest/instagram-brands.svg';
-import foot5 from './assest/facebook-brands.svg';
+import foot1 from '../assest/youtube-square-brands.svg';
+import foot2 from '../assest/twitter-square-brands.svg';
+import foot3 from '../assest/linkedin-brands.svg';
+import foot4 from '../assest/instagram-brands.svg';
+import foot5 from '../assest/facebook-brands.svg';
 import Navbar from '../Nav component/Navbar';
 import './Home.css';
 
