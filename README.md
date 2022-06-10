@@ -12,7 +12,7 @@ This is a Metricks clone app inline with the Gratis-digital-world assessment tes
 - CSS
 
 ## home page:
-![screenshot](./src/asset/gratis.png)
+![screenshot](./src/assest/gratis.png)
 
 ## Getting Started
 
